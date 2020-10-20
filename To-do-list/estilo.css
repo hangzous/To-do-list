@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(182, 162, 255,.50);
+}
+
+#container-geral {
+    display: flex;
+    background: url('h1-background.jpg');
+    width: 300px;
+    justify-content: center;
+    border-radius: 5px;
+    margin-left: 260px;
+}
+
+#container-geral h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container-list {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: repeating-linear-gradient(rgb(117,150,231),rgb(141,169,235));
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 260px;
+}
+
+#container-list #tarefa_id {
+    margin-left: 3px;
+    margin-top: 10px;
+    box-shadow: 0px 2px 5px rgb(22, 21, 21);
+}
+
+::placeholder {
+    color: rgb(88, 84, 84);
+}
+
+#container-list input {
+    margin: 2px 2px 10px 2px;
+    margin-left: -17px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(129,159,233);
+    background-color: rgba(197, 177, 223, 0.60);
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0px 2px 5px rgb(22, 21, 21);
+}
+
+#container-list button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 13pt;
+    color: rgb(0, 0, 0);
+    background-color: rgb(182, 162, 255);
+    border: 2px solid rgb(195, 158, 255);
+    border-radius: 3px;
+    box-shadow: 0px 2px 5px rgb(22, 21, 21);
+}
+
+#container-list input#new_input {
+    margin-left: 3px;
+}
+
+#container-list button#remover_id {
+    padding: 0px 5px 0px 5px;
+    margin-top: 2px;
+    margin-left: 0px;
+    color: rgb(189, 53, 53);
+}
+
